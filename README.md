@@ -1,2 +1,2 @@
-# coronaposter
-A custom coronavirus poster generator
+# DIY Corona Poster
+A custom coronavirus poster generator based on the UK's 'Stay Alert' posters.
