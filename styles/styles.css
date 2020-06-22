@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "FreeSet-Bold";
+    src: url("./fonts/FreeSetBold.eot"); /* IE9 Compat Modes */
+    src: url("./fonts/FreeSetBold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("./fonts/FreeSetBold.otf") format("opentype"), /* Open Type Font */
+      url("./fonts/FreeSetBold.svg") format("svg"), /* Legacy iOS */
+      url("./fonts/FreeSetBold.ttf") format("truetype"), /* Safari, Android, iOS */
+      url("./fonts/FreeSetBold.woff") format("woff"), /* Modern Browsers */
+      url("./fonts/FreeSetBold.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+body, p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.coronaposter {
+    width: 50%;
+    background-color: #fff000;
+    border: #06993e 20px dashed;
+    padding: 12px;
+}
+
+.coronaposter-text {
+    line-height: 9rem;
+    position: absolute;
+    text-align: center;
+    width: 50%;
+    text-transform: uppercase;
+    font-family: FreeSet-Bold, Helvetica, sans-serif;
+    font-size: 10rem;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+    color: #211c19;
+}
+
+.coronaposter:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
