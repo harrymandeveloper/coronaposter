@@ -2,29 +2,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/styles.css" type="text/css" media="all" />
+    <link rel="stylesheet" type="text/css" href="./styles/reset.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/styles.css" />
+
+    <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans"
+    rel="stylesheet"
+  />
+  <script defer src="./js/app.js"></script>
     <title>DIY Corona Poster</title>
 </head>
 <body>
     <header>
 
     </header>
+    <div class="navbar">
+        <nav class="navbar-items">
+          <div class="navbar-link navbar-link-brand">
+            DIY Corona Poster
+          </div>
+          <div class="navbar-link navbar-link-toggle">
+          </div>
+        </nav>
+        <nav class="navbar-items navbar-items-right">
+          <div class="navbar-link"><a href="#">Home</a></div>
+          <div class="navbar-link"><a href="#">About</a></div>
+        </nav>
+    </div>
     <main>
+        <div class="intro">
         <h1>DIY Corona Poster</h1>
         <p>Make your own 'Stay Alert' coronavirus poster.</p>
+        <br />
+        <button id="slogan">Generate New Poster!</button>
+        </div>
+
         <div class="coronaposter">
-            <div class="coronaposter-text"> 
-                <div class="first-line">Have Some Apple Juice</div>
-                <div class="triangle"></div>
-                <div class="second-line">Have a Sandwich</div>
-                <div class="triangle"></div>
-                <div class="third-line">Jump on the Bed</div>
+            <div class="coronaposter-container">
+                <div class="coronaposter-text"> 
+                    <div id="first"></div>
+                    <div class="triangle"></div>
+                    <div id="second">Have a Sandwich</div>
+                    <div class="triangle"></div>
+                    <div id="third">Jump on the Bed</div>
+                </div>
             </div>
         </div>
-        
     </main>
     <footer>
-
-    </footer>
+        <p>
+          <ul>
+  
+            <!-- Tracking in the footer triggers every time the page loads -->
+  
+            <li><a href="https://www.facebook.com/manmadebooks/">
+              <img src="img/footer_icons/facebook_white.svg"></img></a></li>
+              <li><a href="https://www.twitter.com/harrymantweets/"><img src="img/footer_icons/twitter_white.svg"></img></a></li>
+              <li><a href="https://www.linkedin.com/in/harry-man-developer/"><img src="img/footer_icons/linkedin_white.svg"></img></a></li>
+              <li><a href="http://instagram.com/harrymantweets/?hl=en"><img src="img/footer_icons/instagram_white.svg"></img></a></li>
+                </ul>
+  
+  
+              </ul>
+        </p>
+        <p>&copy; Harry Man 2020</p>
+        <p><a href="www.manmadebooks.co.uk">www.manmadebooks.co.uk</a>
+      </footer>
 </body>
 </html>
