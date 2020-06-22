@@ -12,7 +12,6 @@
     "Eat a muffin",
     "Drink 5 beers",
     "Become a lollipop lady",
-    "Talk to the animals",
     "Split a packet of peanuts",
     "Get in a hot air balloon",
     "Have a pasta salad",
@@ -21,30 +20,40 @@
     "Put the Kettle On",
     "Make Cheese on Toast",
     "Make a morning margarita",
-    "Press face to pub window"
-
+    "Press face to pub window",
+    "Raise Tigers",
   ];
 
   const secondInstruction = [
-    "Consider your life choices",
+    "Consider life choices",
     "Search for flour everywhere",
+    "Binge watch Dawson's Creek",
     "Fall over backwards",
-    "Become a lollipop lady",
     "Talk to the animals",
+    "Zoom Call Your Mum",
     "Have a nice cold pint",
     "Have a cup of tea",
     "Discover mysterious island",
+    "Assemble Robot Army",
+    "Trash talk Carole Baskin",
+    "Tell Child \'That\'s Amazing\'",
+    "Attend meetings in pyjamas",
+    "Find flux capacitor",
+    "Find sports almanac",
+    "Wash your hands",
   ];
 
   const thirdInstruction = [
     "Steal a tank",
     "Smell the roses",
     "Celebrate",
+    "Tear down a statue",
     "Dance Around the Living Room",
     "Take a selfie",
+    "Play with plastic dinosaurs",
     "Wait for all of this to blow over",
     "Drive to Barnard Castle",
-    "Return with unbelievable tales"
+    "Return with unbelievable tales",
   ]
 
     billboardText.addEventListener("click", () => {

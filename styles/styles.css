@@ -12,7 +12,7 @@
   }
 
 body, p {
-    font-family: Open Sans, Helvetica, sans-serif;   
+    font-family: Helvetica, Arial, sans-serif;  
     text-align: center;
 }
 
@@ -64,9 +64,9 @@ Navigation
     color: #f3f3f3;
     letter-spacing: 0.25px;
     font-size: 2.5vw;
-    padding-left: 1.0rem;
+    padding-left: 1vw;
     vertical-align: middle;
-    font-family: FreeSet-Bold, Helvetica, sans-serif;
+    font-family: 'Open Sans', Helvetica, sans-serif;
   }
 
 
@@ -80,45 +80,47 @@ h1 {
     padding: 30px;
 }
 
-
-
 .coronaposter {
     display: inline-block;
+    overflow: auto;
     white-space: normal;
-    padding: 20px;
+    padding: 2rem;
     max-width: 50%;
     box-sizing: border-box;
     text-align: center;
+    letter-spacing: -1px;
 }
 
 .coronaposter-container {
+    display: inline-block;
     width: 100%;
     background-position: 0% 0%;
     background-image: repeating-linear-gradient(
         -45deg, 
         #fff000, 
-        #fff000 20px,
-         #06963e 20px,
-         #06963e 40px,
-         #fff000 40px, 
-         #fff000 60px, 
-         #06963e 60px, 
-         #06963e 80px);
+        #fff000 2rem,
+         #06963e 2rem,
+         #06963e 4rem,
+         #fff000 4rem, 
+         #fff000 6rem, 
+         #06963e 6rem, 
+         #06963e 8rem);
+         
 }
 
 .coronaposter-text {
     display: inline-block;
     text-align: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
     background-color: #fff000;
-    width: 87.5%;
+    max-width: 87.5%;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-    padding-top: 1.5rem;
-    /* border: 28px solid transparent; */
+    padding-top: 1.0rem;
     text-transform: uppercase;
     font-family: FreeSet-Bold, Helvetica, sans-serif;
+    font-weight: 900;
     font-size: 6vw;
     line-height: 6vw;
     overflow-wrap: break-word;
@@ -126,7 +128,12 @@ h1 {
     hyphens: auto;
     color: #211c19;
         /* border: 20px dashed #019b3b; */
+}
 
+@media screen and (max-width: 700px) {
+    .coronaposter-text {
+    max-width: 60%;
+    }
 }
 
 .coronaposter:after {
