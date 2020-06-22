@@ -19,6 +19,7 @@
     "Cut Your Own Hair",
     "Drive to the Winchester",
     "Put the Kettle On",
+    "Make Cheese on Toast"
   ];
 
   const secondInstruction = [
