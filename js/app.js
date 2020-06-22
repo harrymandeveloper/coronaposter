@@ -19,11 +19,15 @@
     "Cut Your Own Hair",
     "Drive to the Winchester",
     "Put the Kettle On",
-    "Make Cheese on Toast"
+    "Make Cheese on Toast",
+    "Make a morning margarita",
+    "Press face to pub window"
+
   ];
 
   const secondInstruction = [
     "Consider your life choices",
+    "Search for flour everywhere",
     "Fall over backwards",
     "Become a lollipop lady",
     "Talk to the animals",
