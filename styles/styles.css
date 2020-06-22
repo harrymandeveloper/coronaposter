@@ -16,20 +16,24 @@ body, p {
 }
 
 .coronaposter {
+    white-space: normal;
     width: 50%;
-    background-color: #fff000;
-    border: #06993e 20px dashed;
-    padding: 12px;
+    text-align: center;
 }
 
 .coronaposter-text {
-    line-height: 9rem;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    background-color: #fff000;
+    border: #06993e 20px dashed;
     position: absolute;
-    text-align: center;
     width: 50%;
     text-transform: uppercase;
     font-family: FreeSet-Bold, Helvetica, sans-serif;
-    font-size: 10rem;
+    font-size: 9vw;
+    line-height: 9vw;
     overflow-wrap: break-word;
     word-wrap: break-word;
     hyphens: auto;
@@ -41,3 +45,15 @@ body, p {
     display: block;
     padding-bottom: 100%;
   }
+
+
+.triangle {
+    display: inline-block;
+    width: 0; 
+    height: 20px; 
+    margin-top: 10px;
+    border-left: 4.5vw solid transparent;
+    border-right: 4.5vw solid transparent;
+    border-top: 3.5vw solid #0b913d;
+  }
+
