@@ -11,7 +11,7 @@
   const firstInstruction = [
     "Eat a muffin",
     "Drink 5 beers",
-    "Become a lollipop lady",
+    "Become a <br /> lollipop lady",
     "Split a packet of peanuts",
     "Get in a hot air balloon",
     "Have a pasta salad",
@@ -26,18 +26,19 @@
 
   const secondInstruction = [
     "Consider life choices",
-    "Remove last loo roll from hiding place",
+    "Remove last loo roll from <br /> hiding place",
     "Search for flour everywhere",
     "Binge watch Dawson's Creek",
     "Fall over backwards",
     "Talk to the animals",
     "Zoom Call Your Mum",
+    "Lose the remote down the back of the sofa",
     "Have a nice cold pint",
     "Have a cup of tea",
-    "Do a pub quiz",
-    "Discover mysterious island",
+    "Accidentally hit unmute while farting during a pub quiz",
+    "Discover <br /> mysterious island",
     "Assemble Robot Army",
-    "Trash talk Carole Baskin",
+    "Trash talk <br /> Carole Baskin",
     "Tell Child \'That\'s Amazing\'",
     "Chair a meeting in your pyjamas",
     "Find flux capacitor",
@@ -52,10 +53,10 @@
     "Tear down a statue",
     "Dance Around the Living Room",
     "Take a selfie",
-    "Play with plastic dinosaurs",
+    "Play with <br />plastic dinosaurs",
     "Wait for all of this to blow over",
     "Drive to Barnard Castle",
-    "Return with unbelievable tales",
+    "Return with <br /> unbelievable tales",
   ]
 
     billboardText.addEventListener("click", () => {
@@ -74,9 +75,6 @@
 
   });
 
-
-
-// This is our API request.
 
 
 
