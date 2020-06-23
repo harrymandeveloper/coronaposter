@@ -26,6 +26,7 @@
 
   const secondInstruction = [
     "Consider life choices",
+    "Remove last loo roll from hiding place",
     "Search for flour everywhere",
     "Binge watch Dawson's Creek",
     "Fall over backwards",
@@ -33,11 +34,12 @@
     "Zoom Call Your Mum",
     "Have a nice cold pint",
     "Have a cup of tea",
+    "Do a pub quiz",
     "Discover mysterious island",
     "Assemble Robot Army",
     "Trash talk Carole Baskin",
     "Tell Child \'That\'s Amazing\'",
-    "Attend meetings in pyjamas",
+    "Chair a meeting in your pyjamas",
     "Find flux capacitor",
     "Find sports almanac",
     "Wash your hands",

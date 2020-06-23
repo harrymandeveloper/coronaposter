@@ -16,6 +16,10 @@ body, p {
     text-align: center;
 }
 
+p {
+    line-height: 2.25rem;
+}
+
 
 /* ================================
 Navigation
@@ -79,6 +83,18 @@ h1 {
     text-align: center;
     padding: 30px;
 }
+
+button {
+    color: red;
+    background-color: peachpuff;
+    font-size: 2rem;
+}
+
+button:hover {
+    color: violet;
+    background-color: blue;
+}
+
 
 .coronaposter {
     display: inline-block;
