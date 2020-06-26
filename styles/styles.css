@@ -106,10 +106,11 @@ button:active {
     margin-bottom: 1.5rem;
     background-color: #fff000;
     max-width: 82%;
+    min-width: 60%;
     padding-left: 2rem;
     padding-right: 2rem;
     padding-top: 1.0rem;
-    padding-bottom: 1rem;
+    padding-bottom: 1.0rem;
     text-transform: uppercase;
     font-family: FreeSet-Bold, Helvetica, sans-serif;
     font-weight: 900;
@@ -123,13 +124,68 @@ button:active {
     font-weight: bolder;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1048px) {
+    
+    .coronaposter {
+        max-width: 60%;
+    }
     .coronaposter-text {
-    max-width: 60%;
+    max-width: 80%;
     }
 }
 
+@media screen and (max-width: 937px) {
+    .coronaposter {
+        max-width: 60%;
+    }
+    .coronaposter-text {
+    max-width: 75%;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .coronaposter {
+        max-width: 60%;
+    }
+    .coronaposter-text {
+    max-width: 70%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .coronaposter {
+        max-width: 60%;
+    }
+    .coronaposter-text {
+    max-width: 65%;
+    }
+}
+
+
 @media screen and (max-width: 447px) {
+
+    .coronaposter {
+        display: inline-block;
+        overflow: auto;
+        white-space: normal;
+        padding: 2rem;
+        max-width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+        letter-spacing: -1px;
+    }
+
+    .coronaposter-text {
+    max-width: 30%;
+    }
+}
+
+
+@media screen and (max-width: 302px) {
+
+    .coronaposter-container {
+        width: 100%;
+    }
 
     .coronaposter {
         display: inline-block;
@@ -143,10 +199,15 @@ button:active {
     }
 
     .coronaposter-text {
-    max-width: 30%;
-    max-height: 50%;
+    max-width: 50%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
     }
 }
+
+
 
 .coronaposter:after {
     content: "";
@@ -231,18 +292,6 @@ footer {
   footer a:hover {
     text-decoration: none;
     color: #f3f3f3;
-  }
-
-  .box {
-    max-width: 50%;
-    padding: 1em;
-    resize: both;
-    overflow: hidden;
-    background-color: yellow;
-    border-color: green;
-    border-style: solid;
-    border-width: 21px 23px;
-    border-image: url(../img/border2.png) 21 23 repeat;
   }
 
 
