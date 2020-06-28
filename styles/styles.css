@@ -69,6 +69,11 @@ button:active {
     transform: scale(0.99);
 }
 
+.coffee {
+
+    margin-top: 2.5rem;
+
+}
 
 .coronaposter {
     display: inline-block;
