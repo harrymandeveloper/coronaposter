@@ -28,7 +28,7 @@ sub {
 
 
 h1 {
-    font-family: FreeSet-Bold, Helvetica, sans-serif;
+    font-family: FreeSet-Bold, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif;
     font-size: 3rem;
 }
 
@@ -88,7 +88,6 @@ button:active {
     background-position: 0% 0%;
     background-image: url(../img/stayalertbackground.png);
     background-size: cover;
-    /* background-repeat: no-repeat; */
 }
 
 .coronaposter-text {
@@ -104,7 +103,7 @@ button:active {
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
     text-transform: uppercase;
-    font-family: FreeSet-Bold, Helvetica, sans-serif;
+    font-family: FreeSet-Bold, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif;
     font-weight: 900;
     font-size: 4vw;
     line-height: 4vw;
@@ -275,7 +274,7 @@ footer {
   }
   
   footer p {
-    font-family: Open Sans, Helvetica, sans-serif;    
+    font-family: Open Sans, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif;    
     line-height: 1.25rem;
     font-size: 0.75rem;
     color: #f3f3f3;
@@ -318,53 +317,108 @@ footer {
   }
 
 
-/* .boxes {
-    /* display: flex;
-    justify-content: center; */
-    /* position: relative;
-    min-height: 50%;
-    min-width: 80%;
-    border: solid 20px;  
-    border-image-source:   repeating-linear-gradient(
-        -90deg, 
-        #fff000 0,
-    #06963e 8rem); 
- } */
+/* == To do list styling to be removed == */
 
- /* 
-.boxone {
-    position: relative;
-    display: inline-block;
-    width: 25%;
-    height: 25%;
-    background-color: #fff000;
-    background: repeating-linear-gradient(
-        -45deg, 
-        #fff000 0, 
-        #fff000 2rem,
-         #06963e 2rem,
-         #06963e 4rem,
-         #fff000 4rem, 
-         #fff000 6rem, 
-         #06963e 6rem, 
-         #06963e 8rem);    
+
+.title{
+	color: lime;
+	text-transform: uppercase;
+	font-weight: 800;
 }
 
-.boxtwo {
-    position: relative;
-    width: 25%;
-    height: 25%;
-    margin-left: 0;
-    background-color: green;
-    background: repeating-linear-gradient(
-        45deg, 
-        #fff000 0, 
-        #fff000 2rem,
-         #06963e 2rem,
-         #06963e 4rem,
-         #fff000 4rem, 
-         #fff000 6rem, 
-         #06963e 6rem, 
-         #06963e 8rem);    
-} */
+.inputDiv{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
+.input{
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: none;
+    height: 50px;
+    border-radius: 25px;
+    width: 350px;
+    margin: 0.25rem;
+    transition: .5s;
+    font-size: 1.15rem;
+}
+
+.add{
+	outline: none;
+    border: none;
+    height: 50px;
+    border-radius: 25px;
+    width: 50px;
+    background-color: lime;
+    color: blue;
+    cursor: pointer;
+    transition: .5s;
+    margin: 0.25rem;
+}
+
+.add:hover{
+	opacity: 0.7;
+}
+
+.custom-coronaposter-text {
+    display: inline-block;
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    background-color: #fff000;
+    max-width: 82%;
+    min-width: 60%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    text-transform: uppercase;
+    font-family: FreeSet-Bold, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 4vw;
+    line-height: 4vw;
+    overflow-wrap: normal;
+    word-wrap: break-word; 
+    hyphens: auto;
+    color: #211c19;
+    font-stretch: extra-condensed;
+    font-weight: bolder;
+}
+
+.item{
+	padding: 0.5rem;
+	margin-bottom: 1.5rem;
+}
+
+.item_input{
+	background: none;
+	outline: none;
+	border: none;
+    color:  #211c19;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-family: FreeSet-Bold, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif;
+	width: 245px;
+}
+
+.edit{
+	background: none;
+	outline: none;
+	border: none;
+	color: lime;
+	font-size: 1.4rem;
+    font-family: FreeSet-Bold, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif;
+	margin: 0 0.5rem;
+	cursor: pointer;
+}
+
+.remove{
+	background: none;
+	outline: none;
+	border: none;
+	color: #E00;
+	font-size: 1.4rem;
+	font-family: FreeSet-Bold, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif;
+	cursor: pointer;
+}

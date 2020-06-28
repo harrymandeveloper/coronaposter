@@ -4,12 +4,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="./styles/reset.css" />
     <link rel="stylesheet" type="text/css" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
 
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans"
       rel="stylesheet"
     />
     <script defer src="./js/app.js"></script>
+    <script defer src="./js/custom.js"></script>
     <title>DIY Corona Poster</title>
   </head>
   <body>
@@ -25,12 +28,12 @@
         </p>
         <br />
         <br />
-        <button autofocus id="slogan">Generate New Poster!</button>
+        <button autofocus id="generate">Generate New Poster!</button>
         <br />
         <br />
         <sub
-          >*This is just for fun. Stay safe, save lives. Real advice available
-          <b><a href="https://www.gov.uk/coronavirus">here</a></b
+          >*This is just for fun. Stay safe, wear a mask, save lives. Real advice available
+          <b><a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public">here</a></b
           >.</sub
         >
       </div>
@@ -49,45 +52,46 @@
         </div>
       </div>
 
-      <p>Enjoyed this tool? Why not...</p>
-      <a href="https://www.buymeacoffee.com/formakingthis" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-violet.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important;" ></a>
+      <div class="section">
+        <p>Enjoyed this tool? Why not...</p>
+        <a href="https://www.buymeacoffee.com/formakingthis" target="_blank"
+          ><img
+            src="https://cdn.buymeacoffee.com/buttons/default-violet.png"
+            alt="Buy Me A Coffee"
+            style="height: 51px !important; width: 217px !important;"
+        /></a>
+      </div>
+
 
       <!-- Form construction in progress -->
+<!-- 
+      <div class="inputDiv">
+             <input type="text" class="input" placeholder="What Do You Want to Do...">
+             <button class="add"><i class="fas fa-plus"></i></button>
+      </div>
 
-      <!-- <form action="#" method="get">
-          <legend>
-            <p>Add your own advice</p>
-            <br />
-          </legend>
-          <label>
-            Advice line one:
-            <input placeholder="Go to shops" type="text" name="advice1" id="advice1" size="30" class="form-control" maxlength="100" />
-          </label>
-          <br />
-          <br />
-          <label>
-            Advice line two:
-            <input placeholder="Buy Eggs" type="text" name="advice2" size="30" maxlength="100" />
-          </label>
-          <br />
-          <br />
-          <label>
-            Advice line three:
-            <input placeholder="Save lives" type="text" name="advice3" size="30" maxlength="100" />
-          </label>
-          <br />
-          <br />
-        <br />
-        <button id="add" class="create">Create</button>
+    <div class="coronaposter">
+        <div class="coronaposter-container">
+      <div class="container">
+      </div>
+    </div>
+    </div>
 
-        <ul class="list-group" id="list">
-        </ul>
-
-
-      </form> -->
-
-
-
+      <div class="section">
+        <div class="coronaposter">
+          <div class="coronaposter-container">
+            <div class="custom-coronaposter-text">
+              <div id="firstAdviceText"></div>
+              <div class="triangle"></div>
+              <div id="secondAdviceText"></div>
+              <div class="triangle"></div>
+              <div id="thirdAdviceText"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+       -->
+      <!-- End of Form -->
 
     </main>
     <footer>

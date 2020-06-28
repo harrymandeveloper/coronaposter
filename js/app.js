@@ -1,12 +1,10 @@
 ((d) => {
   let clickCount = 0;
   let textCount = 0;
-  let billboardText = d.getElementById("slogan");
+  let generateButton = d.getElementById("generate");
   let firstLine = d.getElementById("first");
   let secondLine = d.getElementById("second");
   let thirdLine = d.getElementById("third");
-
-  let body = d.body;
 
   const firstInstruction = [
     "Eat a muffin",
@@ -22,7 +20,8 @@
     "Make a morning margarita",
     "Press face to pub window",
     "Raise Tigers",
-    "Sing Happy Birthday Twice",
+    "Arrange <br /> condiments in <br /> alphabetical order",
+    "Sing <br /> Happy Birthday <br /> Twice",
     "Extend your household bubble",
   ];
 
@@ -36,10 +35,10 @@
     "Fall over backwards",
     "Talk to the animals",
     "Zoom Call Your Mum",
-    "Create anti-gravity boots",
+    "Create <br /> anti-gravity <br /> boots",
     "Lose the remote down the back of the sofa",
     "Have a nice cold pint",
-    "Open six packets of crisps. Have all of the crisps.",
+    "Open six packets of crisps<br /> Have all of the crisps",
     "Have a cup of tea",
     "Accidentally hit unmute while farting during a pub quiz",
     "Discover <br /> mysterious island",
@@ -69,19 +68,7 @@
     "Return with <br /> unbelievable tales",
   ]
 
-//   button.addEventListener("click", () => {
-
-//     let buttonClick = d.createElement("li");
-
-//     buttonClick.classList.add("list-group-item");
-//     buttonClick.textContent = userText.value;
-    
-//     ul.append(buttonClick);
-    
-// });
-    
-
-    billboardText.addEventListener("click", () => {
+    generateButton.addEventListener("click", () => {
     let randomNumber = Math.floor(Math.random() * 11);
     textCount = (textCount + randomNumber) % firstInstruction.length;
     let newText = firstInstruction[textCount];
@@ -96,9 +83,5 @@
     thirdLine.innerHTML = `${thirdNewText}`;
 
   });
-
-
-
-
 
 })(document);
