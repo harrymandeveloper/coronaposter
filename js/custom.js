@@ -11,6 +11,6 @@
   //   let checkText = log.textContent += ` ${e.code}`;
   //   firstCustomLine.innerHTML = `${e.code}`;
   //   console.log(checkText);
-  }
+  // }
 
 })(document);

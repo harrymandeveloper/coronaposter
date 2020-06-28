@@ -27,7 +27,6 @@
 
   const secondInstruction = [
     "Consider life choices",
-    "Pour wine",
     "Facetime with a friend overseas",
     "Remove last loo roll from <br /> hiding place",
     "Search for flour everywhere",

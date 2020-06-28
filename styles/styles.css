@@ -90,7 +90,7 @@ button:active {
     display: inline-block;
     resize: both;
     width: 100%;
-    background-position: 0% 0%;
+    background-position: center; 
     background-image: url(../img/stayalertbackground.png);
     background-size: cover;
 }
@@ -98,15 +98,15 @@ button:active {
 .coronaposter-text {
     display: inline-block;
     text-align: center;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     background-color: #fff000;
     max-width: 82%;
     min-width: 60%;
     padding-left: 2rem;
     padding-right: 2rem;
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
     text-transform: uppercase;
     font-family: FreeSet-Bold, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif;
     font-weight: 900;
@@ -127,6 +127,8 @@ button:active {
     }
     .coronaposter-text {
     max-width: 80%;
+    font-size: 4.5vw;
+    line-height: 4.5vw;
     }
 }
 
@@ -153,7 +155,8 @@ button:active {
               #06963e 4rem, 
               #06963e 4rem,
 
-             );         
+             );     
+    
     }
 
     .coronaposter {
@@ -161,6 +164,10 @@ button:active {
     }
     .coronaposter-text {
     max-width: 75%;
+    font-size: 5vw;
+    line-height: 5vw;
+    padding-left: 2.8rem;
+    padding-right: 2.8rem;
     }
 
 }
@@ -180,8 +187,20 @@ button:active {
     }
     .coronaposter-text {
     max-width: 65%;
+    font-size: 6vw;
+    line-height: 6vw;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
     }
 }
+
+@media screen and (max-width: 520px) {
+    .coronaposter-text {
+    padding-left: 2.0rem;
+    padding-right: 2.0rem;
+    }
+}
+
 
 
 @media screen and (max-width: 447px) {
@@ -199,11 +218,21 @@ button:active {
 
     .coronaposter-text {
     max-width: 65%;
-    font-size: 5vw;
-    line-height: 6vw;
+    font-size: 8vw;
+    line-height: 8vw;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
     }
 }
 
+@media screen and (max-width: 381px) {
+
+    .coronaposter-text {
+        padding-left: 2.0rem;
+        padding-right: 2.0rem;
+    }
+
+}
 
 @media screen and (max-width: 302px) {
 
@@ -225,12 +254,12 @@ button:active {
     .coronaposter-text {
 
     width: 95%;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
-    font-size: 6vw;
-    line-height: 6vw;
+    font-size: 7vw;
+    line-height: 7vw;
     }
 }
 
