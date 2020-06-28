@@ -21,7 +21,7 @@
     "Press face to pub window",
     "Raise Tigers",
     "Arrange <br /> condiments in <br /> alphabetical order",
-    "Sing <br /> Happy Birthday <br /> Twice",
+    "Sing <br /> Happy <br /> Birthday <br /> To The Sink",
     "Extend your household bubble",
   ];
 
@@ -33,6 +33,7 @@
     "Search for flour everywhere",
     "Binge watch Dawson's Creek",
     "Fall over backwards",
+    "Reorganise the apps on your phone",
     "Talk to the animals",
     "Zoom Call Your Mum",
     "Create <br /> anti-gravity <br /> boots",
@@ -44,14 +45,17 @@
     "Discover <br /> mysterious island",
     "Assemble Robot Army",
     "Have a biscuit",
+    "Open Tik Tok Account",
     "Trash talk <br /> Carole Baskin",
     "Tell Child \'That\'s Amazing\'",
     "Chair a meeting in your pyjamas",
     "Find flux capacitor",
     "Find sports almanac",
+    "Livestream a bird hopping along a fence",
     "Complete 1000 piece puzzle of obscure painting of gondoliers",
     "Wash your hands",
     "Build an app",
+    "Make pancake cereal",
   ];
 
   const thirdInstruction = [
