@@ -74,7 +74,7 @@ button:active {
     display: inline-block;
     overflow: auto;
     white-space: normal;
-    padding: 2rem;
+    padding: 1rem;
     max-width: 50%;
     box-sizing: border-box;
     text-align: center;
@@ -86,17 +86,9 @@ button:active {
     resize: both;
     width: 100%;
     background-position: 0% 0%;
-    background-color: #fff000;
-    background: repeating-linear-gradient(
-        -45deg, 
-        #fff000 0, 
-        #fff000 2rem,
-         #06963e 2rem,
-         #06963e 4rem,
-         #fff000 4rem, 
-         #fff000 6rem, 
-         #06963e 6rem, 
-         #06963e 8rem);         
+    background-image: url(../img/stayalertbackground.png);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
 }
 
 .coronaposter-text {

@@ -22,7 +22,8 @@
     "Make a morning margarita",
     "Press face to pub window",
     "Raise Tigers",
-    "Open wine",
+    "Sing Happy Birthday Twice",
+    "Extend your household bubble",
   ];
 
   const secondInstruction = [
@@ -51,6 +52,7 @@
     "Find sports almanac",
     "Complete 1000 piece puzzle of obscure painting of gondoliers",
     "Wash your hands",
+    "Build an app",
   ];
 
   const thirdInstruction = [
