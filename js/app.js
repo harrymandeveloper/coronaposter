@@ -51,7 +51,7 @@
     "Chair a meeting in your pyjamas",
     "Find flux capacitor",
     "Find sports almanac",
-    "Livestream a bird hopping along a fence",
+    "Livestream a random hedge",
     "Complete 1000 piece puzzle of obscure painting of gondoliers",
     "Wash your hands",
     "Build an app",
