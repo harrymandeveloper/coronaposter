@@ -11,9 +11,24 @@
     font-style: normal;
   }
 
+body {
+    background-image: linear-gradient(#0768a6, #004978);
+}
+
 body, p {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     text-align: center;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: peachpuff;
+    font-weight: bold;
+}
+
+a:hover {
+ color: lightgreen;
 }
 
 p {
@@ -21,9 +36,10 @@ p {
     letter-spacing: 0.1rem;
 }
 
-sub { 
+.sub { 
     font-size: 0.8rem;
-    letter-spacing: 0.05rem;
+    letter-spacing: 2px;
+    line-height: 1.25rem;
 }
 
 
@@ -70,10 +86,14 @@ button:active {
 }
 
 .coffee {
-
     margin-top: 2.5rem;
+}
+
+.coffee p {
+    padding-top: 3rem;
 
 }
+
 
 .coronaposter {
     display: inline-block;
@@ -83,28 +103,30 @@ button:active {
     max-width: 50%;
     box-sizing: border-box;
     text-align: center;
-    letter-spacing: -1px;
+    letter-spacing: -0.5px;
 }
 
 .coronaposter-container {
     display: inline-block;
     resize: both;
-    width: 100%;
+    width: 80%;
     background-position: center; 
     background-image: url(../img/stayalertbackground.png);
     background-size: cover;
 }
 
 .coronaposter-text {
-    display: inline-block;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     margin-top: 1rem;
     margin-bottom: 1rem;
     background-color: #fff000;
     max-width: 82%;
     min-width: 60%;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     text-transform: uppercase;
@@ -112,9 +134,9 @@ button:active {
     font-weight: 900;
     font-size: 4vw;
     line-height: 4vw;
-    overflow-wrap: normal;
+    /* overflow-wrap: normal;
     word-wrap: break-word; 
-    hyphens: auto;
+    hyphens: auto; */
     color: #211c19;
     font-stretch: extra-condensed;
     font-weight: bolder;
@@ -217,7 +239,7 @@ button:active {
     }
 
     .coronaposter-text {
-    max-width: 65%;
+    max-width: 60%;
     font-size: 8vw;
     line-height: 8vw;
     padding-left: 2.5rem;
@@ -227,12 +249,36 @@ button:active {
 
 @media screen and (max-width: 381px) {
 
+    .coronaposter-container {
+        width: 95%;
+    }
+
     .coronaposter-text {
+
+        width: 70%;
         padding-left: 2.0rem;
         padding-right: 2.0rem;
     }
 
 }
+
+
+@media screen and (max-width: 325px) {
+
+    .coronaposter-container {
+        width: 100%;
+    }
+
+    .coronaposter-text {
+
+        width: 60%;
+        padding-left: 2.0rem;
+        padding-right: 2.0rem;
+    }
+
+}
+
+
 
 @media screen and (max-width: 302px) {
 
