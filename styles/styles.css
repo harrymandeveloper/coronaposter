@@ -265,6 +265,13 @@ button:active {
 
 @media screen and (max-width: 325px) {
 
+    .coronaposter {
+
+        width: 100%;
+
+    }
+
+
     .coronaposter-container {
         width: 100%;
     }
