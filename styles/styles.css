@@ -86,14 +86,13 @@ button:active {
 }
 
 .coffee {
+    display: block;
     margin-top: 2.5rem;
 }
 
 .coffee p {
-    padding-top: 3rem;
-
+    padding-top: 2.25rem;
 }
-
 
 .coronaposter {
     display: inline-block;
@@ -134,9 +133,6 @@ button:active {
     font-weight: 900;
     font-size: 4vw;
     line-height: 4vw;
-    /* overflow-wrap: normal;
-    word-wrap: break-word; 
-    hyphens: auto; */
     color: #211c19;
     font-stretch: extra-condensed;
     font-weight: bolder;
@@ -188,100 +184,80 @@ button:active {
     max-width: 75%;
     font-size: 5vw;
     line-height: 5vw;
-    padding-left: 2.8rem;
-    padding-right: 2.8rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem; 
     }
 
 }
 
 @media screen and (max-width: 760px) {
     .coronaposter {
-        max-width: 60%;
+    width: 80%;
     }
     .coronaposter-text {
-    max-width: 70%;
+    width: 70%;
+    }
+
+    .coronaposter-container {
+        max-width: 70%;
     }
 }
 
 @media screen and (max-width: 650px) {
     .coronaposter {
-        max-width: 60%;
+        max-width: 80%;
     }
     .coronaposter-text {
-    max-width: 65%;
+    width: 95%;
     font-size: 6vw;
     line-height: 6vw;
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     }
 }
 
 @media screen and (max-width: 520px) {
-    .coronaposter-text {
-    padding-left: 2.0rem;
-    padding-right: 2.0rem;
-    }
-}
-
-
-
-@media screen and (max-width: 447px) {
 
     .coronaposter {
-        display: inline-block;
-        overflow: auto;
-        white-space: normal;
-        padding: 2rem;
-        max-width: 90%;
-        box-sizing: border-box;
-        text-align: center;
-        letter-spacing: -1px;
+        width: 100%;
     }
-
-    .coronaposter-text {
-    max-width: 60%;
-    font-size: 8vw;
-    line-height: 8vw;
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-    }
-}
-
-@media screen and (max-width: 381px) {
 
     .coronaposter-container {
-        width: 95%;
+
+        width: 100%;
     }
 
     .coronaposter-text {
-
-        width: 70%;
-        padding-left: 2.0rem;
-        padding-right: 2.0rem;
+        min-width: 65%;
+        padding-left: 1.0rem;
+        padding-right: 1.0rem;
     }
-
 }
-
 
 @media screen and (max-width: 325px) {
 
+    .section {
+        padding: 0rem;
+    }
     .coronaposter {
-
-        width: 100%;
-
+        max-width: 100%;
+        padding: 0rem;
     }
 
-
     .coronaposter-container {
-        width: 100%;
+        max-width: 80%;
     }
 
     .coronaposter-text {
-
-        width: 60%;
-        padding-left: 2.0rem;
-        padding-right: 2.0rem;
+        width: 95%;
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+        padding-top: 1.0rem;
+        padding-bottom: 1.0rem;
+        font-size: 8vw;
+        line-height: 8vw;
     }
+
 
 }
 
@@ -289,9 +265,6 @@ button:active {
 
 @media screen and (max-width: 302px) {
 
-    .coronaposter-container {
-        width: 90%;
-    }
 
     .coronaposter {
         display: inline-block;
@@ -304,15 +277,19 @@ button:active {
         letter-spacing: -1px;
     }
 
+    .coronaposter-container {
+        width: 100%;
+    }
+
     .coronaposter-text {
 
-    width: 95%;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    padding-top: 0.75rem;
-    padding-bottom: 0.75rem;
-    font-size: 7vw;
-    line-height: 7vw;
+        width: 95%;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        padding-top: 0.75rem;
+        padding-bottom: 0.75rem;
+        font-size: 7vw;
+        line-height: 7vw;
     }
 }
 
@@ -321,7 +298,7 @@ button:active {
 .coronaposter:after {
     content: "";
     display: block;
-    padding-bottom: 10%;
+    padding-bottom: 30%;
   }
 
 
