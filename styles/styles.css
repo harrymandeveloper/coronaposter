@@ -116,6 +116,7 @@ button:active {
 
 .coronaposter-text {
     display: table;
+    table-layout:fixed;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
