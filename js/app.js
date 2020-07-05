@@ -22,7 +22,7 @@
     "Press face to pub window",
     "Raise Tigers",
     "Arrange condiments in alphabetical order",
-    "Sing  Happy  Birthday  To The Sink",
+    "Sing Happy Birthday To The Sink",
     "Extend your household bubble",
   ];
 
