@@ -41,7 +41,7 @@ p {
 
 
 h1 {
-    font-family: FreeSet-Bold, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif;
+    font-family: 'FreeSet-Bold', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif;
     font-size: 3rem;
 }
 
@@ -219,6 +219,7 @@ button:active {
     }
 
     .coronaposter-text {
+        font-family: 'FreeSet-Bold', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif;
         width: 94%;
         padding-top: 1rem;
         font-size: 9.5vw;
